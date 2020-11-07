@@ -28,10 +28,23 @@ app.get('/api/notes', function(req,res) {
     res.json(dbjson);
 
 });
-
-
-
-
+app.post('/api/notes', function(req,res) {  
+    var newpost = req.body;
+   
+    function addNewPost(post) {
+        dbjson.push(post);
+        for(let i=0;i<dbjson.length;i++) {
+            dbjson[i].id = i;
+        }
+        return JSON.stringify(dbjson);
+    }
+    fs.writeFile('./db/db.json', addNewPost(newpost), function(err) {
+        if (err){
+            throw err;
+        }
+    });
+    res.json(dbjson);
+});
 
 app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
