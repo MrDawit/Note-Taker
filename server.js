@@ -19,6 +19,19 @@ app.get('/notes', function(req,res) {
 });
 
 
+app.get('/api/notes', function(req,res) {
+    fs.readFile('./db/db.json', 'utf8', function(err,data) {
+        if (err){
+            throw err;
+        }
+    });
+    res.json(dbjson);
+
+});
+
+
+
+
 
 app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
