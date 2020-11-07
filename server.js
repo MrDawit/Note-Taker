@@ -45,6 +45,21 @@ app.post('/api/notes', function(req,res) {
     });
     res.json(dbjson);
 });
+app.delete('/api/notes/:id', function(req,res) {
+    var noteId = req.params.id;
+  
+    dbjson.splice(noteId,1);
+
+    for(let i=0;i<dbjson.length;i++) {
+        dbjson[i].id = i;
+    }
+    fs.writeFile('./db/db.json', JSON.stringify(dbjson), function(err) {
+        if (err){
+            throw err;
+        }
+    });
+    res.json(dbjson);
+});
 
 app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
