@@ -1,14 +1,14 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "an app to create, edit and save notes that are saved to a json file inside the directory",
+  "description": "an app to create, delete and save notes that are saved to a json file inside the directory",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "Shalom Dawit",
-  "license": "ISC",
+  "license": "Apache V2.0",
   "dependencies": {
     "express": "^4.16.4",
     "fs": "0.0.1-security",
