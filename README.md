@@ -14,22 +14,22 @@ live-link: https://enigmatic-spire-35900.herokuapp.com/
 
 ## Table of contents
 - [Description](#Description)
-- [Technologies Used](#Technologies_Used:)
+- [Technologies Used](#Technologies_Used)
 - [Installation](#Installation)
 - [Usage Notes](#Usage_Notes)
-- [Created By](#Created_By:)
+- [Created By](#Created_By)
 
 
 ## Description
 an app to create, delete and save notes that are saved to a json file inside the directory 
 
-<img src="./assets/Note-Taker.gif">
+<img src="./assets/Note_Taker.gif">
 
 <img src="./assets/Note_Taker1.png">
 
 <img src="./assets/Note_Taker2.png">
 
-## Technologies Used:
+## Technologies Used
 
 ![](https://img.shields.io/badge/Made%20with-Javascript-green)
 ![](https://camo.githubusercontent.com/cec92673ea713fa89ba2ae2033daf5851f6f39393ff5b93231aa707d424638d9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4e6f64656a732d626c61636b3f7374796c653d666c61742d737175617265266c6f676f3d4e6f64652e6a73)
@@ -57,7 +57,7 @@ live-link: https://enigmatic-spire-35900.herokuapp.com/
 * To view your saved notes, click on their Note Titles's that are saved on  the lefthand side
 * To delete any note, click on the trashcan icon to the right of the saved Note Title
 * To create a new note, while a note is being viewed, users can click the pencil icon on the top-righthand corner 
-## Created By:
+## Created By
 Shalom Dawit\
 LinkedIn:https://www.linkedin.com/in/shalom-dawit-a0a5a4126 \
 GitHub:https://github.com/MrDawit \
