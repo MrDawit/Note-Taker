@@ -14,10 +14,10 @@ live-link: https://enigmatic-spire-35900.herokuapp.com/
 
 ## Table of contents
 - [Description](#Description)
-- [Technologies Used](#Technologies-Used:)
+- [Technologies Used](#Technologies-Used)
 - [Installation](#Installation)
 - [Usage Notes](#Usage-Notes)
-- [Created By](#Created-By:)
+- [Created By](#Created-By)
 
 
 ## Description
